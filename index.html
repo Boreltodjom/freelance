@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Premium Web Design for Businesses and Creators. Diverse, stunning, and conversion-focused.">
+    <title>Web Design Portfolio | Create Your Digital Legacy</title>
+
+    <!-- Google Fonts: Outfit (Headings) & Inter (Body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@500;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-dot"></div>
+
+    <!-- Overlay Navigation -->
+    <div class="overlay-menu" id="overlayMenu">
+        <div class="close-btn" id="closeMenu">&times;</div>
+        <ul class="overlay-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#testimonials">Stories</a></li>
+            <li><a href="#contact" class="btn-primary">Book Now</a></li>
+        </ul>
+    </div>
+
+    <!-- Top Bar -->
+    <nav class="navbar">
+        <div class="logo">DESIGN<span class="accent">STUDIO</span></div>
+        <div class="menu-toggle" id="openMenu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero animate-on-scroll fade-in">
+        <canvas id="hero-canvas"></canvas>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                We Build <span class="gradient-text">Stunning</span><br>
+                Digital Experiences
+            </h1>
+            <p class="hero-subtitle">Diverse websites for bold businesses and creative visionaries.</p>
+            <div class="hero-buttons">
+                <a href="#work" class="btn-primary">View Portfolio</a>
+                <a href="#contact" class="btn-secondary">Let's Talk</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <!-- decorative circles/glows will be handled in CSS -->
+            <div class="glow-circle circle-1"></div>
+            <div class="glow-circle circle-2"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section animate-on-scroll fade-in">
+        <div class="container">
+            <h2 class="section-title">What We Do</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="icon">🚀</div>
+                    <h3>Business Websites</h3>
+                    <p>High-converting landing pages and corporate sites that build trust.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">✨</div>
+                    <h3>Creator Portfolios</h3>
+                    <p>Showcase your art, photography, or content with immersive designs.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">🛒</div>
+                    <h3>E-Commerce</h3>
+                    <p>Beautiful online stores designed to sell more.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="work" class="section animate-on-scroll fade-in">
+        <div class="container">
+            <h2 class="section-title">Selected Work</h2>
+            <div class="portfolio-grid">
+                <!-- Project 1: Fashion/Lifestyle -->
+                <a href="projects/vogue/index.html" target="_blank" class="project-card" style="--delay: 0.1s">
+                    <div class="project-image-placeholder gradient-1"></div>
+                    <div class="project-info">
+                        <h3>Vogue & Vibe</h3>
+                        <p>Fashion Brand Store</p>
+                    </div>
+                </a>
+                <!-- Project 2: Tech/Startup -->
+                <a href="projects/nexus/index.html" target="_blank" class="project-card" style="--delay: 0.2s">
+                    <div class="project-image-placeholder gradient-2"></div>
+                    <div class="project-info">
+                        <h3>Nexus Tech</h3>
+                        <p>SaaS Landing Page</p>
+                    </div>
+                </a>
+                <!-- Project 3: Restaurant/Food -->
+                <a href="projects/bistro/index.html" target="_blank" class="project-card" style="--delay: 0.3s">
+                    <div class="project-image-placeholder gradient-3"></div>
+                    <div class="project-info">
+                        <h3>Savory Bistro</h3>
+                        <p>Restaurant Booking Site</p>
+                    </div>
+                </a>
+                <!-- Project 4: Personal Brand -->
+                <a href="projects/alex/index.html" target="_blank" class="project-card" style="--delay: 0.4s">
+                    <div class="project-image-placeholder gradient-4"></div>
+                    <div class="project-info">
+                        <h3>Alex Roe</h3>
+                        <p>Influencer Media Kit</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section animate-on-scroll fade-in">
+        <div class="container">
+            <h2 class="section-title">Client Love</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p>"Absolutely transformed our brand online. The design is just... wow."</p>
+                    <h4>— Sarah J., Vogue & Vibe</h4>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Professional, fast, and stunning looking. Best investment we made."</p>
+                    <h4>— Mike R., Nexus Tech</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section animate-on-scroll fade-in">
+        <div class="container">
+            <h2 class="section-title">About Us</h2>
+            <div class="about-content">
+                <p>We are a team of passionate designers and developers who believe that a website should be more than
+                    just code. It should be an experience. With 8+ years of industry expertise, we craft digital
+                    legacies.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section footer-section animate-on-scroll fade-in">
+        <div class="container">
+            <div class="cta-box">
+                <h2>Ready to elevate your brand?</h2>
+                <p>Limited booking slots available for this month.</p>
+                <a href="#" class="btn-primary big-btn">Start Your Project</a>
+            </div>
+        </div>
+        <footer>
+            <p>&copy; 2024 Design Studio. All rights reserved.</p>
+            <div class="socials">
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+                <a href="#">Threads</a>
+            </div>
+        </footer>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
